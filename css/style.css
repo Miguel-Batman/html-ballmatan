@@ -3,7 +3,8 @@
 }
 
 
-html, body {
+html,
+body {
     min-height: 100%;
     margin: 0;
 }
@@ -27,10 +28,11 @@ body {
 
 main {
     flex: 1;
-   
+
 }
 
-header, footer {
+header,
+footer {
     background-color: #ba0000;
     color: #ffa600f6;
     text-align: center;
@@ -62,10 +64,12 @@ nav a {
     border: 2px solid #000000ca;
     border-radius: 20px;
     padding: 15px 15px;
+    text-decoration: none;
 }
 
 nav a:hover {
-    background-color: white;
+    background-color: rgb(195, 171, 127);
+    transform: scale(1.1);
 }
 
 nav .atual {
@@ -92,4 +96,3 @@ main p {
     margin: 40px;
     border-radius: 10px;
 }
-
