@@ -8,22 +8,29 @@ html, body {
     margin: 0;
 }
 
-
-
-body{
+body {
     margin: 0;
     width: 100%;
     height: 0 auto;
     background-color: #720004;
     line-height: 0.5;
-    
+
     background-image: url("../img/Background.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-header, footer{
+main {
+    flex: 1;
+   
+}
+
+header, footer {
     background-color: #ba0000;
     color: #ffa600f6;
     text-align: center;
@@ -31,17 +38,16 @@ header, footer{
     font-family: Arial-black;
 }
 
-header{
+header {
     border-bottom: 5px solid #c9c900;
 }
 
-footer{
+footer {
     border-top: 5px solid #c9c900;
-    
+
 }
 
-
-header p{
+header p {
     color: #fff78798;
 }
 
@@ -51,23 +57,22 @@ nav {
     flex-wrap: wrap;
 }
 
-
-nav a{
+nav a {
     color: #000000c9;
     border: 2px solid #000000ca;
     border-radius: 20px;
     padding: 15px 15px;
 }
 
-nav a:hover{
+nav a:hover {
     background-color: white;
-} 
+}
 
-nav .atual{
+nav .atual {
     background-color: #9f8d01c8;
 }
 
-main p{
+main p {
     text-align: center;
     width: 90%;
     max-width: 1080px;
@@ -79,3 +84,12 @@ main p{
     width: 100%;
     height: 0 auto;
 }
+
+.mcard {
+    color: #ff8000;
+    background-color: #000000a6;
+    padding: 15px;
+    margin: 40px;
+    border-radius: 10px;
+}
+
