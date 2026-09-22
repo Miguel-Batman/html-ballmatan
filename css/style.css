@@ -90,9 +90,31 @@ main p {
 }
 
 .mcard {
-    color: #ff8000;
-    background-color: #000000a6;
+    background-color: #1a1a1a;
+    color: white;
+    border: 2px solid #d4af00;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.icard{
+    background-color: #8b0000;
+    color: #ffd700;
     padding: 15px;
-    margin: 40px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.icard h2 {
+    color: #FFD700;
+}
+
+.icard p {
+    color: #D0D0D0;
+}
+
+.icard img{
+    width: 50%;
+    height: auto;
     border-radius: 10px;
 }
