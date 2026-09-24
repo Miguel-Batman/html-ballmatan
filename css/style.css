@@ -65,10 +65,13 @@ nav a {
     border-radius: 20px;
     padding: 15px 15px;
     text-decoration: none;
+    display: inline-block;
+    margin: 3px;
+    transition: all 0.3s ease;
 }
 
 nav a:hover {
-    background-color: rgb(195, 171, 127);
+    background-color: #FFD700;;
     transform: scale(1.1);
 }
 
@@ -97,24 +100,38 @@ main p {
     margin: 50px;
 }
 
-.icard{
+.icard {
     background-color: #8b0000;
     color: #ffd700;
     padding: 15px;
-    margin: 50px;
+    margin: 20px;
     border-radius: 10px;
+    gap: 50px;
 }
 
 .icard h2 {
     color: #FFD700;
+    font-size: 40px;
+    margin: 10px 10px 30px;
 }
 
 .icard p {
     color: #D0D0D0;
+    /* margin: 10px; */
+    font-size: 30px;
 }
 
-.icard img{
-    width: 50%;
+.icard img {
+    width: 30%;
     height: auto;
     border-radius: 10px;
+    border: 3px solid #d4af00;
+
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    line-height: 1.5;
 }
