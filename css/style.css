@@ -71,7 +71,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #FFD700;;
+    background-color: #FFD700;
+    ;
     transform: scale(1.1);
 }
 
@@ -97,7 +98,7 @@ main p {
     color: white;
     border: 2px solid #d4af00;
     border-radius: 10px;
-    margin: 50px;
+    margin: 70px;
 }
 
 .icard {
@@ -106,7 +107,6 @@ main p {
     padding: 15px;
     margin: 20px;
     border-radius: 10px;
-    gap: 50px;
 }
 
 .icard h2 {
@@ -117,8 +117,9 @@ main p {
 
 .icard p {
     color: #D0D0D0;
-    /* margin: 10px; */
-    font-size: 30px;
+    font-size: 20px;
+    flex: 1;
+    margin: 10px 10px 30px;
 }
 
 .icard img {
@@ -134,4 +135,106 @@ main p {
     align-items: center;
     flex: 1;
     line-height: 1.5;
+    font-size: 20px;
+}
+
+.texto-historia {
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 40px !important;
+}
+
+
+
+
+
+.tecnologias {
+    width: 85%;
+    max-width: 900px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.tecnologias h2 {
+    color: #FFD700;
+    margin: 30px;
+}
+
+.tecnologias-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.tecnologias-container a {
+    width: 130px;
+    height: 130px;
+
+    background-color: #1A1A1A;
+    border: 2px solid #8B0000;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.tecnologias-container i {
+    font-size: 50px;
+    color: #B00020;
+    margin: 10px;
+}
+
+.tecnologias-container p {
+    color: #FFD700;
+    margin: 0;
+    line-height: 1.1;
+}
+
+.tecnologias-container a:hover {
+    transform: translateY(-5px);
+    border-color: #FFD700;
+}
+
+.tecnologias-container a:hover i {
+    color: #FFD700;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    header, footer{
+        line-height: 1.2;
+    }
+    .texto {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .texto img {
+        width: 80%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .texto-historia{
+        font-size: 20px;
+    }
+    .mcard{
+        margin: 20px;
+    }
+    .icard h2{
+        font-size: 35px;
+        line-height: 1.2;
+    }
 }
