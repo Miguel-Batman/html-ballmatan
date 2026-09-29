@@ -10,10 +10,10 @@ body {
 }
 
 body {
-    background-color: #720004;
+    background-color: #07111F;
     line-height: 0.5;
 
-    background-image: url("../img/Background.png");
+    background-image: url("../img/Background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,23 +30,23 @@ main {
 
 header,
 footer {
-    background-color: #ba0000;
-    color: #ffa600f6;
+    background-color: #0D1B2A;
+    color: #d5feffde;
     text-align: center;
     padding: 28px 20px;
 }
 
 header {
-    border-bottom: 5px solid #c9c900;
+    border-bottom: 5px solid #1565C0;
 }
 
 footer {
-    border-top: 5px solid #c9c900;
+    border-top: 5px solid #1565C0;
 
 }
 
 header p {
-    color: #fff78798;
+    color: #B0BEC5;
 }
 
 nav {
@@ -56,8 +56,8 @@ nav {
 }
 
 nav a {
-    color: #000000c9;
-    border: 2px solid #000000ca;
+    color: #E3F2FD;
+    border: 2px solid #1565C0;
     border-radius: 20px;
     padding: 15px 15px;
     text-decoration: none;
@@ -67,12 +67,12 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #FFD700;
+    background-color: #42A5F5;
     transform: scale(1.1);
 }
 
 nav .atual {
-    background-color: #9f8d01c8;
+    background-color: #1565C0;
 }
 
 main p {
@@ -89,30 +89,30 @@ main p {
 }
 
 .mcard {
-    background-color: #1a1a1a;
+    background-color: #0D1B2A;
     color: white;
-    border: 2px solid #d4af00;
+    border: 2px solid #42A5F5;
     border-radius: 10px;
     margin: 70px;
 }
 
 .icard {
-    background-color: #8b0000;
-    color: #ffd700;
+    background-color: #102A43;
+    color: #42A5F5;
     padding: 15px;
     margin: 20px;
     border-radius: 10px;
 }
 
 .icard h2 {
-    color: #FFD700;
+    color: #42A5F5;
     font-size: 40px;
     margin: 10px 10px 30px;
 }
 
 .icard p {
     text-align: center;
-    color: #D0D0D0;
+    color: #B0BEC5;
     font-size: 20px;
 }
 
@@ -120,7 +120,7 @@ main p {
     width: 30%;
     height: auto;
     border-radius: 10px;
-    border: 3px solid #d4af00;
+    border: 3px solid #1565C0;
     margin-bottom: 10px;
 
 }
@@ -156,7 +156,7 @@ main p {
 }
 
 .tecnologias h2 {
-    color: #FFD700;
+    color: #42A5F5;
     margin: 30px;
 }
 
@@ -172,8 +172,8 @@ main p {
     width: 130px;
     height: 130px;
 
-    background-color: #1A1A1A;
-    border: 2px solid #8B0000;
+    background-color: #0D1B2A;
+    border: 2px solid #1565C0;
     border-radius: 10px;
 
     display: flex;
@@ -187,23 +187,27 @@ main p {
 
 .tecnologias-container i {
     font-size: 50px;
-    color: #B00020;
+    color: #42A5F5;
     margin: 10px;
 }
 
 .tecnologias-container p {
-    color: #FFD700;
+    color: #E3F2FD;
     margin: 0;
     line-height: 1.1;
 }
 
 .tecnologias-container a:hover {
     transform: translateY(-5px);
-    border-color: #FFD700;
+    border-color: #42A5F5;
 }
 
 .tecnologias-container a:hover i {
-    color: #FFD700;
+    color: #E3F2FD;
+}
+
+.tecnologias-container img {
+    border: 0;
 }
 
 
@@ -232,7 +236,7 @@ main p {
         margin-bottom: 20px;
     }
 
-    .texto-historia {
+    .texto-historia p {
         font-size: 20px;
     }
 
