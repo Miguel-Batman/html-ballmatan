@@ -6,61 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Mim</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
 <body>
-    <header>
-        <h1>Miguel Ballmatan</h1>
-        <p>Sou um estudante de Informática na EEEP Jeová Costa Lima</p>
-        <nav>
-            <a href="index.html">Início</a>
-            <a href="sobre.html" class="atual">Sobre mim</a>
-            <a href="contato.html">Contato</a>
+    <header class="bg-[#0D1B2A] text-[#E3F2FD] text-center px-5 py-7 border-b-4 border-[#1565C0]">
+
+        <h1 class="text-3xl md:text-4xl font-bold mb-2">
+            Miguel Ballmatan
+        </h1>
+
+        <p class="text-[#B0BEC5] mb-6">
+            Sou um estudante de Informática na EEEP Jeová Costa Lima
+        </p>
+
+        <nav class="flex flex-wrap justify-center gap-3">
+
+            <a href="index.html"
+                class="text-[#E3F2FD] border border-[#42A5F5] rounded-full px-5 py-3 transition duration-300 hover:scale-105 hover:bg-[#1565C0]">
+                Início
+            </a>
+
+            <a href="sobre.html"
+                class="bg-[#1565C0] text-white border border-[#42A5F5] rounded-full px-5 py-3 transition duration-300 hover:scale-105 hover:bg-[#42A5F5]">
+                Sobre mim
+            </a>
+
+            <a href="contato.html"
+                class="text-[#E3F2FD] border border-[#42A5F5] rounded-full px-5 py-3 transition duration-300 hover:scale-105 hover:bg-[#1565C0]">
+                Contato
+            </a>
+
         </nav>
+
     </header>
 
 
-    <main>
-        <div class="mcard">
 
-            <section class="icard">
-                <h2>Minha história...</h2>
+    <main class="flex-1 p-5 md:p-10">
 
-                <div class="texto-historia">
+        <section class="bg-[#0D1B2A] text-[#E3F2FD] border-2 border-[#1565C0] rounded-xl p-5 md:p-8">
 
-                    <p>Desde muito novo, sempre fui muito fã de informática e pensava em seguir nessa área. No
-                        entanto,
-                        por falta de acesso e oportunidades, acabei me desmotivando e deixando esse objetivo de
-                        lado.
-                        Posteriormente, ao saber da existência da Walquer, senti uma nova motivação ao visualizar a
-                        possibilidade de um curso na área de tecnologia. Com a introdução da EEEP Jeová Costa Lima
-                        na
-                        cidade e a possibilidade de cursar uma formação na área de TI, permaneci muito ansioso e
-                        motivado. Foi então que retomei meu interesse pela área e passei a enxergar novamente a
-                        possibilidade de construir um futuro ligado à tecnologia. </p>
+            <h2 class="text-[#42A5F5] text-3xl md:text-4xl font-bold text-center mb-8">
+                Minha história...
+            </h2>
 
-                    <p>
-                        Além disso, sou uma pessoa que gosta de desafios e de me superar. Acredito que a vida é uma
-                        jornada de aprendizado constante, e estou sempre em busca de novas oportunidades para
-                        crescer
-                        pessoal e profissionalmente. Estou animado para continuar explorando o mundo da tecnologia e
-                        contribuir com minhas habilidades e conhecimentos para tecnologias significativos.</p>
+            <div class="max-w-5xl mx-auto space-y-6">
 
-                    <p>Em resumo, sou um estudante apaixonado por tecnologia, RPG e aprendizado contínuo. Valorizo
-                        as
-                        amizades e estou sempre em busca de desafios que me permitam crescer e evoluir como pessoa e
-                        profissional.</p>
-                </div>
-            </section>
+                <p class="text-[#E3F2FD] text-base md:text-xl leading-relaxed text-justify">
+                    Desde muito novo, sempre fui muito fã de informática e pensava em seguir nessa área. No
+                    entanto, por falta de acesso e oportunidades, acabei me desmotivando e deixando esse objetivo de
+                    lado. Posteriormente, ao saber da existência da Walquer, senti uma nova motivação ao visualizar a
+                    possibilidade de um curso na área de tecnologia. Com a introdução da EEEP Jeová Costa Lima
+                    na cidade e a possibilidade de cursar uma formação na área de TI, permaneci muito ansioso e
+                    motivado. Foi então que retomei meu interesse pela área e passei a enxergar novamente a
+                    possibilidade de construir um futuro ligado à tecnologia.
+                </p>
 
-            
+                <p class="text-[#E3F2FD] text-base md:text-xl leading-relaxed text-justify">
+                    Além disso, sou uma pessoa que gosta de desafios e de me superar. Acredito que a vida é uma
+                    jornada de aprendizado constante, e estou sempre em busca de novas oportunidades para
+                    crescer pessoal e profissionalmente. Estou animado para continuar explorando o mundo da tecnologia e
+                    contribuir com minhas habilidades e conhecimentos para tecnologias significativos.
+                </p>
 
-        </div>
+                <p class="text-[#E3F2FD] text-base md:text-xl leading-relaxed text-justify">
+                    Em resumo, sou um estudante apaixonado por tecnologia, RPG e aprendizado contínuo. Valorizo
+                    as amizades e estou sempre em busca de desafios que me permitam crescer e evoluir como pessoa e
+                    profissional.
+                </p>
+
+            </div>
+
+        </section>
+
     </main>
 
 
-    <footer>
-        <p>&copy 2026 Miguel Ballmatan de Oliveira Lima, HTML e CSS</p>
+
+    <footer class="bg-[#0D1B2A] text-[#B0BEC5] text-center px-5 py-7 border-t-4 border-[#1565C0] mb-0">
+
+        <p class="text-sm md:text-base">
+            &copy; 2026 Miguel Ballmatan de Oliveira Lima, HTML e CSS
+        </p>
+
     </footer>
 
 

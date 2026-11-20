@@ -7,51 +7,100 @@
     <title>Contato</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body>
-    <header>
-        <h1>Miguel Ballmatan</h1>
-        <p>Sou um estudante de Informática na EEEP Jeová Costa Lima</p>
-        <nav>
-            <a href="index.html">Início</a>
-            <a href="sobre.html">Sobre mim</a>
-            <a href="contato.html" class="atual">Contato</a>
+<body class="bg-cyan-900">
+    <header class="bg-[#0D1B2A] text-[#E3F2FD] text-center px-5 py-7 border-b-4 border-[#1565C0]">
+
+        <h1 class="text-3xl md:text-4xl font-bold mb-2">
+            Miguel Ballmatan
+        </h1>
+
+        <p class="text-[#B0BEC5] mb-6">
+            Sou um estudante de Informática na EEEP Jeová Costa Lima
+        </p>
+
+        <nav class="flex flex-wrap justify-center gap-3">
+
+            <a href="index.html"
+                class="text-[#E3F2FD] border border-[#42A5F5] rounded-full px-5 py-3 transition duration-300 hover:scale-105 hover:bg-[#1565C0]">
+                Início
+            </a>
+
+            <a href="sobre.html"
+                class="text-[#E3F2FD] border border-[#42A5F5] rounded-full px-5 py-3 transition duration-300 hover:scale-105 hover:bg-[#1565C0]">
+                Sobre mim
+            </a>
+
+            <a href="contato.html"
+                class="bg-[#1565C0] text-white border border-[#42A5F5] rounded-full px-5 py-3 transition duration-300 hover:scale-105 hover:bg-[#42A5F5]">
+                Contato
+            </a>
+
         </nav>
+
     </header>
 
 
-    <main>
-        <div class="mcard">
-            <section class="icard">
-                <div class="tecnologias">
-                    <h2>Meios de Contato</h2>
 
-                    <div class="tecnologias-container">
-                        <a href="https://www.instagram.com/miguelballmatan/" target="_blank">
-                            <img src="./img/instagram.png">
-                            <p>Instagram</p>
-                        </a>
+    <main class="flex-1 p-5 md:p-10">
 
-                        <a href="https://github.com/Miguel-Batman" target="_blank">
-                            <i class="devicon-github-original"></i>
-                            <p>Github</p>
-                        </a>
-                        <a href="mailto:miguelballmatan@dgmail.com" target="_blank">
-                            <img src="./img/e-mail.png">
-                            <p>Email</p>
-                        </a>
-                        
-                    </div>
-                </div>
-            </section>
+        <section class="bg-[#0D1B2A] text-[#E3F2FD] border-2 border-[#1565C0] rounded-xl p-5 md:p-8">
 
-        </div>
+            <h2 class="text-[#42A5F5] text-3xl md:text-4xl font-bold text-center mb-8">
+                Meios de Contato
+            </h2>
+
+            <div class="flex flex-wrap justify-center gap-5">
+
+                <a href="https://www.instagram.com/miguelballmatan/" target="_blank"
+                    class="w-36 h-36 bg-[#102A43] border-2 border-[#1565C0] rounded-xl flex flex-col items-center justify-center gap-3 transition duration-300 hover:-translate-y-2 hover:border-[#42A5F5]">
+
+                    <img src="./img/instagram.png" alt="Instagram" class="w-14 h-14 object-contain">
+
+                    <p class="text-[#E3F2FD] font-semibold">
+                        Instagram
+                    </p>
+
+                </a>
+
+                <a href="https://github.com/Miguel-Batman" target="_blank"
+                    class="w-36 h-36 bg-[#102A43] border-2 border-[#1565C0] rounded-xl flex flex-col items-center justify-center gap-3 transition duration-300 hover:-translate-y-2 hover:border-[#42A5F5]">
+
+                    <i class="devicon-github-original text-5xl text-[#42A5F5]"></i>
+
+                    <p class="text-[#E3F2FD] font-semibold">
+                        GitHub
+                    </p>
+
+                </a>
+
+                <a href="mailto:miguelballmatan@dgmail.com"
+                    class="w-36 h-36 bg-[#102A43] border-2 border-[#1565C0] rounded-xl flex flex-col items-center justify-center gap-3 transition duration-300 hover:-translate-y-2 hover:border-[#42A5F5]">
+
+                    <img src="./img/e-mail.png" alt="E-mail" class="w-14 h-14 object-contain">
+
+                    <p class="text-[#E3F2FD] font-semibold">
+                        E-mail
+                    </p>
+
+                </a>
+
+            </div>
+
+        </section>
+
     </main>
 
 
-    <footer>
-        <p>&copy 2026 Miguel Ballmatan de Oliveira Lima, HTML e CSS</p>
+
+    <footer class="bg-[#0D1B2A] text-[#B0BEC5] text-center px-5 py-7 border-t-4 border-[#1565C0] mb-0">
+
+        <p class="text-sm md:text-base">
+            &copy; 2026 Miguel Ballmatan de Oliveira Lima, HTML e CSS
+        </p>
+
     </footer>
 
 
